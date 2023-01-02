@@ -1,0 +1,20 @@
+header nav {
+    width: 100vw;
+    height: 40vh;
+    background-color: black;
+}
+
+@media (max-width:1000px) {
+    header nav {
+        height: 35vh;
+        width: 80VW;
+    }
+}
+
+@media (max-width:500px) {
+    header nav {
+        height: 30vh;
+        width: 70vw;
+
+    }
+}
